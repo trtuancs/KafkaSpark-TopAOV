@@ -1,13 +1,13 @@
-<!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
     <img src="https://springflee.files.wordpress.com/2020/03/new-project.png" alt="Logo" width="500" height="250">
   </a>
 
   <h1 align="center">Process Data Streaming With Kafka, Spark and Postgres</h1>  
----  
+</p> 
+
 ## Run project  
+
 1.  Clone the repo :  
     ```sh
     git clone git@github.com:trtuancs/KafkaSpark-TopAOV.git
