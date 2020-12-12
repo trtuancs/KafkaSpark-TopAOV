@@ -7,7 +7,7 @@ def calculate_aov():
     spark = SparkSession.builder \
         .master('spark://10.5.0.6:7077') \
         .appName('Show-Top-100-AOV') \
-        .config("spark.jars", "postgresql-42.2.18.jar") \
+        .config("spark.jars", "../postgresql-42.2.18.jar") \
         .getOrCreate()
 
     invoice_no = spark.read.format("jdbc"). \
